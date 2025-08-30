@@ -8,7 +8,7 @@ terraform {
   }
   provider "azurerm" {
   features {}
-  subscription_id = "84382787-1367-4937-befb-9757f44087ef"
+  subscription_id = "5e4fafbb-ef69-4e17-8835-68030d81f758"
 }
 
 resource "azurerm_resource_group" "vinit" {
