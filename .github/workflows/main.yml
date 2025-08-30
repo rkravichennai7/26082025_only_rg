@@ -1,0 +1,6 @@
+name: "Infra Pipeline"
+on: workflow_dispatch
+jobs:
+  my_first_job:
+    name: My first job
+    runs-on: ubuntu-latest
