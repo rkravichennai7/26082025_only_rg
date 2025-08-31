@@ -3,6 +3,7 @@ on: workflow_dispatch
 permissions:
   contents: read
   issues: write
+  id-token: write
 jobs:
   my_first_job:
     name: My first job
