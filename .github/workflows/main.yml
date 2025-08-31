@@ -1,12 +1,13 @@
 name: "Infra Pipeline"
 on: workflow_dispatch
+permissions:
+  contents: read
+  issues: write
 jobs:
   my_first_job:
     name: My first job
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      issues: write
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v5.0.0
